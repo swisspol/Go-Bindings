@@ -1,10 +1,5 @@
-#import <Foundation/Foundation.h>
-
-#import <Hello/Hello.h>
+#import <Cocoa/Cocoa.h>
 
 int main(int argc, const char* argv[]) {
-  @autoreleasepool {
-    NSLog(@"%@", GoHelloGreetings(@"ME"));
-  }
-  return 0;
+  return NSApplicationMain(argc, argv);
 }

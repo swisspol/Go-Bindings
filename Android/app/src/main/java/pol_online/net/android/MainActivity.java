@@ -12,6 +12,12 @@ import android.widget.TextView;
 
 import go.hello.Hello;
 
+class Processor extends Hello.Processor.Stub {
+    public String Process(String s) {
+        return String.format("[%s]", s);
+    }
+}
+
 public class MainActivity extends AppCompatActivity {
     private TextView mTextView;
 
@@ -23,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mTextView = (TextView) findViewById(R.id.mytextview);
-        String greetings = Hello.Greetings("ME");
+        Hello.Processor processor = new Processor();
+        String greetings = Hello.Greetings("ME", processor);
         mTextView.setText(greetings);
     }
 
