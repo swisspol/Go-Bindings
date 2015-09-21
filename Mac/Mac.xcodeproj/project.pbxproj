@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26EF5651BB09ABE003B2EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EF5641BB09ABE003B2EFA /* main.m */; settings = {ASSET_TAGS = (); }; };
+		E26EF5691BB09AD7003B2EFA /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26EF5681BB09AD7003B2EFA /* Hello.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E26EF55A1BB09A2C003B2EFA /* Mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mac; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26EF5641BB09ABE003B2EFA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E26EF5681BB09AD7003B2EFA /* Hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hello.framework; path = Hello.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26EF5571BB09A2C003B2EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26EF5691BB09AD7003B2EFA /* Hello.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26EF5511BB09A2C003B2EFA = {
+			isa = PBXGroup;
+			children = (
+				E26EF5661BB09AC1003B2EFA /* Source */,
+				E26EF5671BB09ACA003B2EFA /* Frameworks and Libraries */,
+				E26EF55B1BB09A2C003B2EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26EF55B1BB09A2C003B2EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26EF55A1BB09A2C003B2EFA /* Mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26EF5661BB09AC1003B2EFA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E26EF5641BB09ABE003B2EFA /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E26EF5671BB09ACA003B2EFA /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E26EF5681BB09AD7003B2EFA /* Hello.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26EF5591BB09A2C003B2EFA /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26EF5611BB09A2C003B2EFA /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				E26EF5561BB09A2C003B2EFA /* Sources */,
+				E26EF5571BB09A2C003B2EFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = Mac;
+			productReference = E26EF55A1BB09A2C003B2EFA /* Mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26EF5521BB09A2C003B2EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					E26EF5591BB09A2C003B2EFA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E26EF5551BB09A2C003B2EFA /* Build configuration list for PBXProject "Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E26EF5511BB09A2C003B2EFA;
+			productRefGroup = E26EF55B1BB09A2C003B2EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26EF5591BB09A2C003B2EFA /* Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26EF5561BB09A2C003B2EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26EF5651BB09ABE003B2EFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E26EF55F1BB09A2C003B2EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		E26EF5601BB09A2C003B2EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		E26EF5621BB09A2C003B2EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = .;
+				PRODUCT_NAME = Mac;
+			};
+			name = Debug;
+		};
+		E26EF5631BB09A2C003B2EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = .;
+				PRODUCT_NAME = Mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26EF5551BB09A2C003B2EFA /* Build configuration list for PBXProject "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26EF55F1BB09A2C003B2EFA /* Debug */,
+				E26EF5601BB09A2C003B2EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26EF5611BB09A2C003B2EFA /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26EF5621BB09A2C003B2EFA /* Debug */,
+				E26EF5631BB09A2C003B2EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26EF5521BB09A2C003B2EFA /* Project object */;
+}

@@ -7,6 +7,8 @@ source "env.sh"
 # https://godoc.org/golang.org/x/mobile/cmd/gobind
 rm -rf "build"
 mkdir "build"
+mkdir "build/macosx"
+gomobile bind -v -target=osx -o "build/macosx/Hello.framework" "hello"
 mkdir "build/ios"
 gomobile bind -v -target=ios -o "build/ios/Hello.framework" "hello"
 mkdir "build/android"
