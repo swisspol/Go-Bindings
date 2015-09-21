@@ -17,4 +17,4 @@ tar -xf "go$GO_VERSION.darwin-amd64.tar.gz" -C "$GOROOT" --strip-components=1
 rm -rf "$GOPATH/bin"
 rm -rf "$GOPATH/pkg"
 go install golang.org/x/mobile/cmd/gomobile
-gomobile init
+gomobile init -v
