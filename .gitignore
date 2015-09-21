@@ -1,0 +1,6 @@
+.DS_Store
+*.tar.gz
+/go-1.*/
+/go/bin/
+/go/pkg/
+/build/

@@ -1,0 +1,6 @@
+[submodule "go/src/github.com/satori/go.uuid"]
+	path = go/src/github.com/satori/go.uuid
+	url = https://github.com/satori/go.uuid.git
+[submodule "go/src/github.com/swisspol/mobile"]
+	path = go/src/github.com/swisspol/mobile
+	url = https://github.com/swisspol/mobile.git
